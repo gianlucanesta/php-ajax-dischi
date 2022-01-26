@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    background-color: #1e2d3b;
+}
+
+header {     
+    background-color: #2e3a46;  
+}
+
+.logo {
+    padding: 10px 10px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;     
+}
+
+.logo img {
+    height: 50px;
+}
+
+main .row{
+    display: flex;
+    justify-content: center;
+}
+
+.album-square {
+    width: 190px;
+    height: 350px;
+    margin: 0 20px 75px 20px;
+    background-color: #2e3a46;
+}    
+    
+.album-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-image img {
+    margin-top: 20px;
+    width: 150px;
+    align-content: center;
+}
+
+.album-square h3 { 
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.author, .year {
+    color: gray;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.year {
+    font-size: 14px;
+}
+    
+
+
+.album-square:hover {
+    background-color: #3d4e5f;
+    cursor: pointer;
+}
