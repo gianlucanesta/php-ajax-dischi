@@ -16,7 +16,9 @@
         crossorigin="anonymous"
     />
 </head>
-<body>
+<body style="background-color: #1e2d3b;"
+>
+
     <?php include __DIR__ . '/partials/header.php'; ?>
     <?php include __DIR__ . '/partials/main.php'; ?>
     <?php include __DIR__ . '/partials/footer.php'; ?>
