@@ -4,7 +4,7 @@
             
             <div class="row row-cols-2 row-cols-lg-5 singleAlbum">
 
-                <?php include __DIR__ . '/singleAlbum.php'; ?> 
+                <?php include __DIR__ . '/albumList.php'; ?> 
 
             </div>
             
